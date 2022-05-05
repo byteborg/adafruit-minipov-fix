@@ -206,6 +206,7 @@ clean_list :
 	$(REMOVE) *.obj
 	$(REMOVE) *.elf
 	$(REMOVE) *.o
+	$(REMOVE) .map
 
 # Listing of phony targets.
 .PHONY : all begin finish end \
